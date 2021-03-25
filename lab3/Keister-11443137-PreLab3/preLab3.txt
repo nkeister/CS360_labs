@@ -1,0 +1,81 @@
+Lab 3 Pre Lab - CS360
+Nicholas Keister
+11443137
+
+1.  Process: a task which is the execution of an image. Sequence of
+    executions by the OS kernal as a single entity for using system
+    resources
+
+    pid, ppid:  pid is the "process ID." ppid is the "parent process
+                ID."
+
+    status:     status is the current status of the process
+
+    priority:   is the process scheduling priority
+
+    event:      a value to PROC structure and implement ksleep
+                function. implements sleep operation
+
+    exitCode:   process exit status
+
+2. download and run mtx file in linux
+
+3.  kfork():    creates a child task and enters it into readyQueue()
+
+    tswitch():  implements context switching. saves the return address
+                on stack and enters tswitch() in assembly code.
+
+    kexit():    erases process user-mode context, closes file descriptors
+                releases resources, deallocates user-mode image memory.
+                disposes child processes, records exitValue, becomes
+                zombie, wakeup parent if needed and INIT process P1
+    
+    ksleep():   sleeps process if a memory area for exclusive use
+
+    kwakeup():  makes p ready when sleeping and enters p into
+                readyQueue()
+
+    kwait():    waits for ZOMBIE child process and the returned pid is
+                the ZOMBIE childs pid.
+
+4.  fork:       creates a child task and enters into readyQueue() as 
+                [2 1]->[0 0]->NULL. Also free list removed [2 0]
+    
+    fork can only run 7 times as there are only 7 processes ready
+    in freeList
+
+5.  switch:     P1 went into readyQueue as [1 1]->[0 0]->NULL
+
+    sleep:      P1 left readyQueue and sleep list is not NULL anymore
+                sleep list gave pid=2 and event address
+    
+    wakeup 234: no process woke up
+
+    wakeup 123: child process woke up and entered into readyQueue
+
+6.  wait:       enters proc into sleepList with pid=1 and event address
+
+    exit 123:   P2 runs now
+
+    ps:         P2 is RUNNING
+
+    wait:       P1 becomes RUNNING and P2 becomes READY
+
+                        CASE2
+    fork P3:    P1 becomes SLEEP because P2 becomes the running process
+
+    ps:         P3 becomes READY because when forked P3 will be new
+                process
+
+7.  exit 123:   P1 is running because P2 erases process exits user-mode
+                and becomes ZOMBIE
+
+    ps:         P2 is ZOMBIE. P2s children becomes ready to be forked
+
+    wait:       P2 becomes free
+
+    wait:       P1 becomes SLEEP because P2 is FREE and waiting to
+                becomes ready free
+
+    To make P1 READY must run exit with the exit code for P1.
+    eg. exit 123
