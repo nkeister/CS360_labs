@@ -1,0 +1,5 @@
+enter main
+&argc=ffdef860 argv=ffdef8f4 env=ffdef908
+&a=ffdef81c &b=ffdef820 &c=ffdef824
+  one  two  three
+exit main

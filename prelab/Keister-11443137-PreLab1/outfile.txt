@@ -1,0 +1,143 @@
+enter main
+&argc=ffc986d0 argv=ffc98764 env=ffc9876c
+&a=ffc9868c &b=ffc98690 &c=ffc98694
+counter:  1
+
+enter A
+Address of d: ffc98640 Address of e: ffc98644 Address of f: ffc98648 
+enter B
+Address of g: ffc98610 Address of h: ffc98614 Address of i: ffc98618 
+enter C
+Address of u: ffc985d4 Address of v: ffc985d8 Address of w: ffc985dc Address of i: ffc985e0 Address of p: ffc985e4  
+stack frame list: ffc985f8  ffc98628  ffc98658  ffc986b8  ffc985e4 ffc985e4 
+
+ffc985e8 1          w = 12
+ffc985ec 2e80f100 
+ffc985f0 ffc986d0 
+ffc985f4 565a1fcc 
+ffc985f8 ffc98628   FP *FP
+ffc985fc 565a0818   retPC
+ffc98600 7 
+ffc98604 8 
+ffc98608 ffc98614 
+ffc9860c ffc98618 
+ffc98610 7          g = 7
+ffc98614 8          h = 8
+ffc98618 9          i = 9
+ffc9861c 2e80f100 
+ffc98620 ffc986d0 
+ffc98624 565a1fcc 
+ffc98628 ffc98658   FP *FP
+ffc9862c 565a077d   retPC
+ffc98630 4 
+ffc98634 5 
+ffc98638 ffc98644 
+ffc9863c ffc98648 
+ffc98640 4 
+ffc98644 5          e = 5
+ffc98648 6          f = 6
+ffc9864c 2e80f100 
+ffc98650 ffc986d0 
+ffc98654 565a1fcc 
+ffc98658 ffc986b8   FP *FP
+ffc9865c 565a06d8   retPC
+ffc98660 1 
+ffc98664 2 
+ffc98668 ffc98690 
+ffc9866c ffc98694 
+ffc98670 9 
+ffc98674 ffc99436 
+ffc98678 ffc9876c 
+ffc9867c ffc98764 
+ffc98680 f7f7d000   
+ffc98684 f7f7d000   
+ffc98688 0 
+ffc9868c 1 
+ffc98690 2 
+ffc98694 3 
+ffc98698 1 
+ffc9869c 2e80f100 
+ffc986a0 1 
+ffc986a4 ffc98764 
+ffc986a8 ffc9876c 
+ffc986ac ffc986d0 
+ffc986b0 0 
+ffc986b4 f7f7d000 
+ffc986b8 0          FP *FP
+ffc986bc f7dc0e81 
+ffc986c0 f7f7d000 
+ffc986c4 f7f7d000 
+ffc986c8 0 
+ffc986cc f7dc0e81 
+ffc986d0 1          argc = 1
+ffc986d4 ffc98764   argv location  
+ffc986d8 ffc9876c   env location
+ffc986dc ffc986f4 
+ffc986e0 1 
+ffc986e4 ffc98764 
+ffc986e8 f7f7d000 
+ffc986ec f7fae75a 
+ffc986f0 ffc98760 
+ffc986f4 0 
+ffc986f8 f7f7d000 
+ffc986fc 0 
+ffc98700 0 
+ffc98704 2d5ae134 
+ffc98708 64bc724 
+ffc9870c 0 
+ffc98710 0 
+ffc98714 0 
+ffc98718 40 
+ffc9871c f7fc6024 
+ffc98720 0 
+ffc98724 0 
+ffc98728 f7fae869 
+ffc9872c 565a1fcc 
+ffc98730 1 
+ffc98734 565a04a0 
+ffc98738 0 
+ffc9873c 565a04d1 
+ffc98740 565a05dd 
+ffc98744 1 
+ffc98748 ffc98764 
+ffc9874c 565a0980 
+ffc98750 565a09e0 
+ffc98754 f7fae9b0 
+ffc98758 ffc9875c 
+ffc9875c f7fc6940 
+ffc98760 1 
+ffc98764 ffc99436 
+ffc98768 0 
+ffc9876c ffc9943e 
+ffc98770 ffc99454 
+ffc98774 ffc99a40 
+ffc98778 ffc99a62 
+ffc9877c ffc99a79 
+ffc98780 ffc99a8a 
+ffc98784 ffc99a95 
+ffc98788 ffc99ab5 
+ffc9878c ffc99ac9 
+ffc98790 ffc99ad9 
+ffc98794 ffc99ae4 
+ffc98798 ffc99b0d 
+ffc9879c ffc99b1e 
+ffc987a0 ffc99b2a 
+ffc987a4 ffc99b41 
+ffc987a8 ffc99b53 
+ffc987ac ffc99b74 
+ffc987b0 ffc99bca 
+ffc987b4 ffc99bec 
+ffc987b8 ffc99bfe 
+ffc987bc ffc99c13 
+ffc987c0 ffc99c26 
+ffc987c4 ffc99c39 
+ffc987c8 ffc99c4e 
+ffc987cc ffc99ca1 
+ffc987d0 ffc99cbc 
+ffc987d4 ffc99cd8   d = 4
+ffc987d8 ffc99ce5 
+ffc987dc ffc99cf9 
+ffc987e0 ffc99d09 
+exit B
+exit A
+exit main

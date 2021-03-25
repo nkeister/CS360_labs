@@ -1,0 +1,41 @@
+Script started on 2020-09-01 20:01:17-0700
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc[K[Kexit[2Plsclear[3Pls[Ksclear[3Plsexit[Kcc -m32 t1.c
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ ls -l ./a.out
+-rwxr-xr-x 1 nmunoz nmunoz 7236 Sep  1 20:01 [0m[01;32m./a.out[0m
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ size a.ou[K[K[K[K./a.out
+   text	   data	    bss	    dec	    hex	filename
+   1507	    304	      8	   1819	    71b	./a.out
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t2.c
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t2.csize ./a.out[1@ls -l[C[C[C[C[C[C[C[C
+-rwxr-xr-x 1 nmunoz nmunoz 7240 Sep  1 20:01 [0m[01;32m./a.out[0m
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ ls -l ./a.out[1Pcc -m32 t2.csize ./a.out
+   text	   data	    bss	    dec	    hex	filename
+   1507	    308	      4	   1819	    71b	./a.out
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t3.c
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t3.csize ./a.out[1@ls -l[C[C[C[C[C[C[C[C
+-rwxr-xr-x 1 nmunoz nmunoz 7236 Sep  1 20:02 [0m[01;32m./a.out[0m
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ ls -l ./a.out[1Pcc -m32 t3.csize ./a.out
+   text	   data	    bss	    dec	    hex	filename
+   1507	    304	  40032	  41843	   a373	./a.out
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t4.c
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t4.csize ./a.out[1@ls -l[C[C[C[C[C[C[C[C
+-rwxr-xr-x 1 nmunoz nmunoz 47260 Sep  1 20:02 [0m[01;32m./a.out[0m
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ ls -l ./a.out[1Pcc -m32 t4.csize ./a.out
+   text	   data	    bss	    dec	    hex	filename
+   1507	  40328	      4	  41839	   a36f	./a.out
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t5.c
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t5.csize ./a.out[1@ls -l[C[C[C[C[C[C[C[C
+-rwxr-xr-x 1 nmunoz nmunoz 7316 Sep  1 20:02 [0m[01;32m./a.out[0m
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ ls -l ./a.out[1Pcc -m32 t5.csize ./a.out
+   text	   data	    bss	    dec	    hex	filename
+   1710	    308	      8	   2026	    7ea	./a.out
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t6.c
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ cc -m32 t6.csize ./a.out[1@ls -l[C[C[C[C[C[C[C[C
+-rwxr-xr-x 1 nmunoz nmunoz 7328 Sep  1 20:02 [0m[01;32m./a.out[0m
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ ls -l ./a.out[1Pcc -m32 t6.csize ./a.out
+   text	   data	    bss	    dec	    hex	filename
+   1523	    304	  40068	  41895	   a3a7	./a.out
+]0;nmunoz@nmunoz-XPS-13-9380: ~/wsu/cs360/prelab[01;32mnmunoz@nmunoz-XPS-13-9380[00m:[01;34m~/wsu/cs360/prelab[00m$ exit
+exit
+
+Script done on 2020-09-01 20:02:42-0700
